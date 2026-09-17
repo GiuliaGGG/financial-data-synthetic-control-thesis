@@ -1,36 +1,3 @@
-## Repository Structure
-
-```text
-masters_thesis/
-│
-├── README.md
-├── images/
-├── r/
-│
-├── data/                   # Created during execution
-│   ├── raw/
-│   └── processed/
-│
-├── outputs/                # Final datasets used in analysis
-│
-└── python/
-    ├── __init__.py
-    ├── config.py           # Paths and configuration (edit email here)
-    ├── imports.py          # Common imports
-    ├── run_pipeline.py     # Main entry point
-    │
-    └── scripts/
-        ├── __init__.py
-        ├── scrapper.py     # Step 1: data collection
-        ├── preprocess.py  # Step 2: preprocessing
-        ├── prepare.py     # Step 3: SCM preparation
-        │
-        └── functions/
-            ├── __init__.py
-            ├── scraping.py
-            ├── preprocessing.py
-            └── tagging.py
-```
 ## My Thesis
 
 Political consumer boycotts have become an increasingly prominent tool of digital activism, yet credible empirical evidence on their economic effects remains limited. This thesis estimates the causal impact of political boycott calls on firm performance, focusing on the Boycott, Divestment, and Sanctions (BDS) movement’s boycott of McDonald’s following the outbreak of the genocide in Gaza in 2023. The study asks whether the movement’s recognition of McDonald’s as a boycott target translated into a measurable decline in the firm’s global revenue.
@@ -70,6 +37,40 @@ the placeholder email address with your own institutional email address.
 
 This email is used to identify the user when accessing public APIs
 (e.g. SEC EDGAR) for academic research purposes.
+
+## Repository Structure
+
+```text
+masters_thesis/
+│
+├── README.md
+├── images/
+├── r/
+│
+├── data/                   # Created during execution
+│   ├── raw/
+│   └── processed/
+│
+├── outputs/                # Final datasets used in analysis
+│
+└── python/
+    ├── __init__.py
+    ├── config.py           # Paths and configuration (edit email here)
+    ├── imports.py          # Common imports
+    ├── run_pipeline.py     # Main entry point
+    │
+    └── scripts/
+        ├── __init__.py
+        ├── scrapper.py     # Step 1: data collection
+        ├── preprocess.py  # Step 2: preprocessing
+        ├── prepare.py     # Step 3: SCM preparation
+        │
+        └── functions/
+            ├── __init__.py
+            ├── scraping.py
+            ├── preprocessing.py
+            └── tagging.py
+```
 
 ## SEC XBRL Field Definitions
 
